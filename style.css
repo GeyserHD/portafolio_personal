@@ -70,3 +70,24 @@ h2 {
     color: #fff;
     margin-top: 2rem;
 }
+/* Animaciones */
+h1, h2 {
+    transition: transform 0.3s ease;
+}
+
+h1:hover, h2:hover {
+    transform: scale(1.05);
+}
+
+/* Animación de fade-in en secciones */
+section {
+    opacity: 0;
+    animation: fadeIn 1.5s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
