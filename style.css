@@ -35,3 +35,31 @@ body {
     padding: 0.5rem;
     border-radius: 8px;
 }
+/* Sección de libros */
+.libros {
+    padding: 2rem;
+    text-align: center;
+}
+
+.grid-libros {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.grid-libros article {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.grid-libros img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #2e8b57;
+}
