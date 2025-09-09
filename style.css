@@ -14,3 +14,24 @@ body {
     text-align: center;
     padding: 2rem 1rem;
 }
+/* Sección de habilidades */
+.habilidades {
+    padding: 2rem;
+    text-align: center;
+    background: #ffffff;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.habilidades ul {
+    list-style: none;
+    padding: 0;
+}
+
+.habilidades li {
+    background: #e0f2e9;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 8px;
+}
